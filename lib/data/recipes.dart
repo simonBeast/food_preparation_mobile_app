@@ -325,7 +325,7 @@ final List<Map<String, dynamic>> recipes = [
   },
   {
     'name': 'Chocolate Milkshake',
-    'imageUrl': "assets/",
+    'imageUrl': "assets/images/milkshake.jpg",
     'steps': [
       {
         'title': 'Scoop Ice Cream',
