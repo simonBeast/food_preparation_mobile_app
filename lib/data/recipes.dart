@@ -1,6 +1,7 @@
 final List<Map<String, dynamic>> recipes = [
  {
     'name': 'Classic Pancakes',
+    'imageUrl': "assets/images/pancakes.webp",
     'steps': [
       {
         'title': 'Mix Dry Ingredients',
@@ -36,6 +37,7 @@ final List<Map<String, dynamic>> recipes = [
   },
   {
     'name': 'Fresh Garden Salad',
+    'imageUrl': "assets/images/fresh-garden-salad.jpg",
     'steps': [
       {
         'title': 'Wash Vegetables',
@@ -71,6 +73,7 @@ final List<Map<String, dynamic>> recipes = [
   },
   {
     'name': 'Chocolate Chip Cookies',
+    'imageUrl': "assets/images/chocolate-chip-cookies.webp",
     'steps': [
       {
         'title': 'Cream Butter & Sugar',
@@ -106,6 +109,7 @@ final List<Map<String, dynamic>> recipes = [
   },
   {
     'name': 'Spaghetti Bolognese',
+    'imageUrl': "assets/images/spaghetti.jpg",
     'steps': [
       {
         'title': 'Cook Pasta',
@@ -141,6 +145,7 @@ final List<Map<String, dynamic>> recipes = [
   },
   {
     'name': 'Vegetable Stir Fry',
+    'imageUrl': "assets/images/vegetable.jpg",
     'steps': [
       {
         'title': 'Prepare Vegetables',
@@ -176,6 +181,7 @@ final List<Map<String, dynamic>> recipes = [
   },
   {
     'name': 'Scrambled Eggs',
+    'imageUrl': "assets/images/scrambledEgg.jpg",
     'steps': [
       {
         'title': 'Crack Eggs',
@@ -211,6 +217,7 @@ final List<Map<String, dynamic>> recipes = [
   },
   {
     'name': 'Avocado Toast',
+    'imageUrl': "assets/images/avocado.jpg",
     'steps': [
       {
         'title': 'Toast Bread',
@@ -246,6 +253,7 @@ final List<Map<String, dynamic>> recipes = [
   },
   {
     'name': 'Fruit Smoothie',
+    'imageUrl': "assets/images/smoothie.webp",
     'steps': [
       {
         'title': 'Prepare Fruits',
@@ -281,6 +289,7 @@ final List<Map<String, dynamic>> recipes = [
   },
   {
     'name': 'Grilled Cheese Sandwich',
+    'imageUrl': "assets/images/grilled.jpg",
     'steps': [
       {
         'title': 'Butter Bread',
@@ -316,6 +325,7 @@ final List<Map<String, dynamic>> recipes = [
   },
   {
     'name': 'Chocolate Milkshake',
+    'imageUrl': "assets/",
     'steps': [
       {
         'title': 'Scoop Ice Cream',

@@ -48,7 +48,6 @@ class _MyAppState extends State<MyApp> {
         ),
       ),
       themeMode: isDarkMode ? ThemeMode.dark: ThemeMode.light  ,
-
       home: HomeScreen(
         isDarkMode: isDarkMode,
         setIsDarkMode: setIsDarkMode,
