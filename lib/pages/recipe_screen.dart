@@ -175,8 +175,7 @@ class _RecipeScreenState extends State<RecipeScreen> with TickerProviderStateMix
               ),
             ),
             SizedBox(height: 24),
-
-           
+   
             ScaleTransition(
               scale: _buttonScale,
               child: Row(
