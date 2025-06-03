@@ -92,7 +92,6 @@ class _RecipeScreenState extends State<RecipeScreen> with TickerProviderStateMix
         padding: EdgeInsets.all(16),
         child: Column(
           children: [
-            // Step indicator with animation
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: List.generate(
@@ -100,7 +99,7 @@ class _RecipeScreenState extends State<RecipeScreen> with TickerProviderStateMix
                 (index) => Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 4),
                   child: AnimatedScale(
-                    scale: currentStep == index ? 1.4 : 1.0,
+                    scale: currentStep == index ? 1.3 : 1.0,
                     duration: Duration(milliseconds: 300),
                     child: Container(
                       width: 10,
@@ -114,8 +113,8 @@ class _RecipeScreenState extends State<RecipeScreen> with TickerProviderStateMix
                             ? [
                                 BoxShadow(
                                   color: Theme.of(context).colorScheme.primary.withOpacity(0.5),
-                                  blurRadius: 6,
-                                  spreadRadius: 2,
+                                  blurRadius: 4,
+                                  spreadRadius: 1.5,
                                 ),
                               ]
                             : [],
@@ -126,8 +125,6 @@ class _RecipeScreenState extends State<RecipeScreen> with TickerProviderStateMix
               ),
             ),
             SizedBox(height: 20),
-
-            // Animation and step content
             Expanded(
               child: FadeTransition(
                 opacity: _fadeAnimation,
@@ -179,7 +176,7 @@ class _RecipeScreenState extends State<RecipeScreen> with TickerProviderStateMix
             ),
             SizedBox(height: 24),
 
-            // Navigation buttons
+           
             ScaleTransition(
               scale: _buttonScale,
               child: Row(

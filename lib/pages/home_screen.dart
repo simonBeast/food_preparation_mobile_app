@@ -41,7 +41,7 @@ class HomeScreen extends StatelessWidget {
             Center(
               child: Text(
                 'Choose a Recipe',
-                style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold,color: Theme.of(context).colorScheme.onBackground),
               ),
             ),
             SizedBox(height: 20),
