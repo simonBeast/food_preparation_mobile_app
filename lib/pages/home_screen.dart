@@ -58,10 +58,18 @@ class HomeScreen extends StatelessWidget {
                   var recipe = recipes[index];
                   return AnimationConfiguration.staggeredGrid(
                     position: index,
-                    duration: Duration(milliseconds: 400),
+                    duration: Duration(milliseconds: 500),
                     columnCount: 2,
-                    child: ScaleAnimation(
-                      child: FadeInAnimation(child: RecipeCard(recipe: recipe)),
+                    child: SlideAnimation(
+                      verticalOffset: 60.0 + index * 2,
+                      curve: Curves.easeOutBack,
+                      child: ScaleAnimation(
+                        scale: 0.9,
+                        curve: Curves.easeIn,
+                        child: FadeInAnimation(
+                          child: RecipeCard(recipe: recipe),
+                        ),
+                      ),
                     ),
                   );
                 },
